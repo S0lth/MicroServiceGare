@@ -18,6 +18,7 @@ docker run --name mysql-container \
 -e MYSQL_ROOT_PASSWORD=root \
 -e MYSQL_DATABASE=mydb -p 3306:3306 -d mysql:latest
 
+```
 
 **Windows**
 
@@ -26,7 +27,9 @@ Sous Windows la même commande peut être lancée depuis PowerShell
 ## Lancement de la base de données MongoDB
 
 **Linux**
+
 Depuis n'importe où dans le terminal lancer la commande suivante (la configuration par défaut suffit)
+
 ```sh
 sudo systemctl restart mongod
 sudo mongod --config=<chemin-vers-votre-config>
@@ -34,6 +37,7 @@ sudo mongod --config=<chemin-vers-votre-config>
 ```
 
 **Windows**
+
 Depuis PowerShell lancer depuis le dossier contenant l'exécutable de MongoDB
 
 ```sh
